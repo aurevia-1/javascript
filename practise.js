@@ -1,3 +1,5 @@
+
+
 // class task
 
 // let subject1 = parseFloat(prompt("Enter Your Marks For English"));
@@ -181,76 +183,166 @@
 
 // test + revision
 
-let studentname = prompt("Enter Your Name");
-let studentage  = +prompt("Enter Your Age");
-let  studentcard = prompt("enter Your Studentcard Yes/No").toLowerCase();
-let showtime = prompt("enter Your Show Time").toLowerCase();
-let hascard = studentcard == "yes"
+// let studentname = prompt("Enter Your Name");
+// let studentage  = +prompt("Enter Your Age");
+// let  studentcard = prompt("enter Your Studentcard Yes/No").toLowerCase();
+// let showtime = prompt("enter Your Show Time").toLowerCase();
+// let hascard = studentcard == "yes"
 
 
-let movietime = "";
-if((studentage >= 18 || hascard) && showtime === "evening"){
-       movietime = "Allow for evening movie show";
-}else if (showtime === "morning" || showtime === "afternoon"){
-       movietime = "Allow for day movie show";
-}else{
-    movietime = "not eligible for movie show"
-}
+// let movietime = "";
+// if((studentage >= 18 || hascard) && showtime === "evening"){
+//        movietime = "Allow for evening movie show";
+// }else if (showtime === "morning" || showtime === "afternoon"){
+//        movietime = "Allow for day movie show";
+// }else{
+//     movietime = "not eligible for movie show"
+// }
 
 
-let p1 = +prompt("enter your product price 01");
-let q1 = +prompt("enter your product quatity 01");
-let p2 = +prompt("enter your product price 02");
-let q2  = +prompt("enter your product quantity 02");
+// let p1 = +prompt("enter your product price 01");
+// let q1 = +prompt("enter your product quatity 01");
+// let p2 = +prompt("enter your product price 02");
+// let q2  = +prompt("enter your product quantity 02");
 
-let total1 = p1 * q1
-let total2 = p2 * q2
-let total = total1 + total2;
-let discount = +prompt("Enter Your discount persentage %");
-let discountamount = (total * discount)/100
-let finalprice = total - discountamount;
-let bigorder = finalprice >= 5000 ? "you purches a big order" : "thanks for purchesing";
-
-
-let studentmark = +prompt("Enter Your marks");
-let mark = 
-studentmark >= 90 ? "A grade" :
-studentmark >= 80 ? "B grade" :
-studentmark >= 70 ? "C grade" :
-studentmark >= 60 ? "D grade" : "fail";
-let result = mark !== "fail" ? "congrate you are a passed" : "sorry try again";
+// let total1 = p1 * q1
+// let total2 = p2 * q2
+// let total = total1 + total2;
+// let discount = +prompt("Enter Your discount persentage %");
+// let discountamount = (total * discount)/100
+// let finalprice = total - discountamount;
+// let bigorder = finalprice >= 5000 ? "you purches a big order" : "thanks for purchesing";
 
 
-let fruit = ['apple','banana','mango','lichi'];
-fruit.push('grapes');
-fruit.shift()
-
-console .log(
-`
-------  Next ---------
-
-student name : ${studentname}
-student age : ${studentage}
-Movie Time : ${movietime}
+// let studentmark = +prompt("Enter Your marks");
+// let mark = 
+// studentmark >= 90 ? "A grade" :
+// studentmark >= 80 ? "B grade" :
+// studentmark >= 70 ? "C grade" :
+// studentmark >= 60 ? "D grade" : "fail";
+// let result = mark !== "fail" ? "congrate you are a passed" : "sorry try again";
 
 
-------  Next ---------
+// let fruit = ['apple','banana','mango','lichi'];
+// fruit.push('grapes');
+// fruit.shift()
 
-product price total : ${total.toFixed(2)}
-Discountamount : ${discountamount.toFixed(2)}
-final price : ${finalprice.toFixed(2)}
-${bigorder};
+// console .log(
+// `
+// ------  Next ---------
 
-------  Next ---------
+// student name : ${studentname}
+// student age : ${studentage}
+// Movie Time : ${movietime}
 
-student mark : ${mark}
-Grade : ${studentmark}
-Final Result : ${result}
 
-------  Next ---------
+// ------  Next ---------
 
-Fruit Name : ${fruit}
+// product price total : ${total.toFixed(2)}
+// Discountamount : ${discountamount.toFixed(2)}
+// final price : ${finalprice.toFixed(2)}
+// ${bigorder};
 
-`
-)
+// ------  Next ---------
 
+// student mark : ${mark}
+// Grade : ${studentmark}
+// Final Result : ${result}
+
+// ------  Next ---------
+
+// Fruit Name : ${fruit}
+
+// `
+// )
+
+
+
+// loop  Topic
+
+
+
+// let name = ['ali', 'areeba','bilal']
+
+// name.pop()
+// name.unshift('atif')
+
+// for(let i =0; i <name.length; i++){
+//     console.log(name[i  ])
+// }                                                                                                           
+
+// let students = [];
+
+// let name = prompt("Enter Your name")
+// let age = +prompt("Enter Your Age")
+// let mark = +prompt('Enter your marks')
+
+// let result = mark >=60 ? "Eligible For Certificate" : "Not be Eligible";
+
+// students.push(name)
+
+// for(let i = 0; i<students.length ; i++){
+//     console.log(`
+//         student Name : ${students[i]}
+//          age : ${age}
+//          Marks : ${mark}
+//          Status : ${result}
+//         `)
+// }
+
+// let students = []
+
+// for(let i=0; i<3; i++){
+//     let name = prompt(`enter your name ${i+1}`)
+//     let age  = +prompt(`enter your age ${name}`)
+//     let mark = +prompt(`enter your mark ${name}`)
+
+//     students.push(name)
+
+//     let grade = 
+//     mark >= 90 ? "A grade" :
+//     mark >= 80 ? "B grade" :
+//     mark >= 70 ? "C grade" :
+//     mark >= 60 ? "D grade" : "fail"
+
+//     let status = mark >=60 ? "Eligible for certificate" : "not eligible for certificate";
+//     console.log(`
+//          student name : ${students[i]}
+//          student age : ${age}
+//          student mark : ${mark}
+//          Student Status : ${status}
+//         `)
+// }
+
+// let student = ['atif', 'areeba', 'bilal', 'hadi', 'khalil'];
+// let user = prompt("Enter your name attendance marke ?").toLowerCase();
+// let check = false
+
+// for(let i =0; i<student.length; i++){
+//     if(user === student[i]){
+//         check = true
+//         break
+//     }
+// }if(check){
+//     console.log("user found")
+// }else{
+//     console.log("user not found")
+// }
+
+
+// program task 
+
+// let pro = ['areeba','bilal','atif','hadi','khalil'];
+// let user = prompt("Enter your name attendance marked").toLowerCase()
+// let check = false
+
+// for(let i=0; i<pro.length; i++){
+//     if(user === pro[i]){
+//         check = true;
+
+//     }
+// }if(check){
+//     console.log(`Welcome! to ${user} your attendance marked `);
+// }else{
+//     console.log(`Sorry! to ${user} your attendance is not marked `);
+// }

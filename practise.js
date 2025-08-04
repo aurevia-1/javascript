@@ -346,3 +346,12 @@
 // }else{
 //     console.log(`Sorry! to ${user} your attendance is not marked `);
 // }
+
+// palindrom words\
+
+// let user = prompt("Enter your words");
+// let reversed = '';
+
+// for(let i=0; i<user.length; i--){
+//     reversed += 
+// }
